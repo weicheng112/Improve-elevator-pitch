@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+video-app/node_modules
+video-app/.pnp
+video-app/.pnp.js
+
+# testing
+video-app/coverage
+
+# production
+video-app/build
+
+# misc
+video-app/.DS_Store
+video-app/.env.local
+video-app/.env.development.local
+video-app/.env.test.local
+video-app/.env.production.local
+
+video-app/npm-debug.log*
+video-app/yarn-debug.log*
+video-app/yarn-error.log*
